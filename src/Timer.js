@@ -1,4 +1,4 @@
-import PIXI from 'pixi.js';
+import * as PIXI from 'pixi.js';
 export default class Timer extends PIXI.utils.EventEmitter{
   constructor(time = 1, manager){
     super();
